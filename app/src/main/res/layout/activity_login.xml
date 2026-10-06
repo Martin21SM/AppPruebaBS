@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- GIF superior -->
+        <ImageView
+            android:id="@+id/gifLogin"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Animación de bienvenida" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="App prueba de Android"
+            android:textSize="38sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPaginaWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌐 Ver pagina web"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📷 Ver galeria"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnConfiguracionWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛜 Configuracion wifi"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCamaraFrontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📷 Camara frontal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAbrirContactos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 Abrir contactos"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de teléfono"
+            android:inputType="phone"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLlamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 Llamar"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+        <Button
+            android:id="@+id/btnAjustes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Ajustes" />
+
+        <Button
+            android:id="@+id/btnDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver detalle" />
+
+        <Spinner
+            android:id="@+id/spOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <Button
+            android:id="@+id/btnSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a la opción elegida" />
+
+        <ImageView
+            android:id="@+id/imgResultado"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+</ScrollView>
